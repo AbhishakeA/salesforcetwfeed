@@ -17,7 +17,8 @@ import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 import twitter4j.conf.ConfigurationBuilder;
 
-/**
+/**##Salesforce Twitter Feed Application##
+ *
  * The Twitterservlet class acts as controller object in this MVC pattern application
  * This is created we container and invoked based web.xml descriptions and returns tweets for given user.
  * 

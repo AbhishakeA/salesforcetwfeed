@@ -1,4 +1,6 @@
-<!-- This JSP is forwarded from TwitterServlet
+<!--##Salesforce Twitter Feed Application##
+
+This JSP is forwarded from TwitterServlet
 The scope of this page is list of statuses from Servlet
 
 It renders multiple divs and display all the paramenters

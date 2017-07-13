@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- The web.xml helps find the default page to index unloaded; While the URL pattern matching the servlet below
+<!--##Salesforce Twitter Feed Application##
+ 
+The web.xml helps find the default page to index unloaded; While the URL pattern matching the servlet below
 will execute the Servlet doGET method and request is processed -->
 
 

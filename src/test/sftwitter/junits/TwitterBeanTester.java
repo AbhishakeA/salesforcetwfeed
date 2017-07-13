@@ -12,8 +12,12 @@ import test.sftwitter.beans.TwitterBean;
 import test.sftwitter.utils.AuthUtility;
 import twitter4j.Status;
 import twitter4j.conf.ConfigurationBuilder;
-/*This Junit Test case will test all the methods in 
- * TwitterBean to make all API calls Twitter and fetch the latest tweets*/
+
+/*##Salesforce Twitter Feed Application##
+*
+*This Junit Test case will test all the methods in 
+* TwitterBean to make all API calls Twitter and fetch the latest tweets*/
+
 public class TwitterBeanTester {
 
 

@@ -1,4 +1,5 @@
-/*This function is used to hide all other table rows but the ones that matched the search paramenter in Input field
+/*##Salesforce Twitter Feed Application##
+This function is used to hide all other table rows but the ones that matched the search paramenter in Input field
  * The input field data is retrived by element ID and is compared against all the data on page
  * The one matched will not be hidden and rest will be hidden making search functionlity effective and faster*/
 function mySearch() {

@@ -1,6 +1,7 @@
 package test.sftwitter.utils;
 
-/**
+/**##Salesforce Twitter Feed Application##
+*
 * The Contants class can be used to maintain all the hardcoded values or properties in one place
 * So the application be configurable.
 * This can be replaced with a properrty file for better management; This is used for convinience on this project.

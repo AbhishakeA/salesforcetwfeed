@@ -18,9 +18,13 @@ import org.mockito.Mockito;
 import test.sftwitter.servlets.TwitterServlet;
 import test.sftwitter.utils.AuthUtility;
 import twitter4j.Status;
-/*This Junit Test case will test MVC controller and mainservlet and its operations
- * It should make all neccessary calls to API to get the Feed
- * It should fetch top 10 tweets from the given user*/
+
+/*##Salesforce Twitter Feed Application##
+*
+*This Junit Test case will test MVC controller and mainservlet and its operations
+* It should make all neccessary calls to API to get the Feed
+* It should fetch top 10 tweets from the given user*/
+
 public class TwitterServletTester extends Mockito {
 
  @Mock

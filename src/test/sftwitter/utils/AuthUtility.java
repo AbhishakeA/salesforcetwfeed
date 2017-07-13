@@ -1,7 +1,9 @@
 package test.sftwitter.utils;
 
 import twitter4j.conf.ConfigurationBuilder;
-/**
+
+/**##Salesforce Twitter Feed Application##
+ *
  * The AuthUtility can be used to get authentication with twitter account and return back Configuration Object.
  * 
  * 
