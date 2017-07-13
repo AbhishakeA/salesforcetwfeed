@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- The web.xml helps find the default page to index unloaded; While the URL pattern matching the servlet below
+will execute the Servlet doGET method and request is processed -->
+
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>SalesForceTwitterFeed</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+   <servlet-name>TwitterServlet</servlet-name>
+   <servlet-class>test.sftwitter.servlets.TwitterServlet</servlet-class>
+   
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>TwitterServlet</servlet-name>
+   <url-pattern>/TwitterFeed</url-pattern>
+</servlet-mapping>
+</web-app>
