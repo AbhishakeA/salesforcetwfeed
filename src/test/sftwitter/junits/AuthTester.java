@@ -24,4 +24,10 @@ public class AuthTester {
 
   Assert.assertNull(cb);
  }
+ @Test
+ public void AuthTest_Fail() {
+  ConfigurationBuilder cb = au.getCB();
+
+  assertNotNull(cb);
+ }
 }
